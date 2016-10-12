@@ -777,7 +777,7 @@ VCC
 Text Label 8500 5300 2    60   ~ 0
 VIN
 Text Label 8500 5400 2    60   ~ 0
-RST
++5V
 Text Label 8500 5500 2    60   ~ 0
 PB15
 Text Label 8500 5600 2    60   ~ 0
