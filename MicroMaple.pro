@@ -1,4 +1,4 @@
-update=Saturday, 08 October 2016 'pmt' 21:23:00
+update=2016 October 17, Monday 16:50:06
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=libraries/myRegul
 LibName31=libraries/stm32f103
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
