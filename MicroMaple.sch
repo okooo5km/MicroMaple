@@ -575,7 +575,7 @@ F 3 "" H 9950 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 9950 1100 2    60   ~ 0
-PB1
+PB0
 $Comp
 L R R5
 U 1 1 57F967CA
@@ -1238,10 +1238,10 @@ Control the USB disconnect Methods:
 Text Notes 1650 6850 0    60   ~ 0
 1. set PA12 to OUTPUT Mode and pull down the U+ level\n2. set the PA12 back to INPUT floating Mode
 $Comp
-L LOGO #G?
+L LOGO #G1
 U 1 1 5805F4C9
 P 10850 6850
-F 0 "#G?" H 10850 6693 60  0001 C CNN
+F 0 "#G1" H 10850 6693 60  0001 C CNN
 F 1 "LOGO" H 10850 7007 60  0001 C CNN
 F 2 "" H 10850 6850 60  0001 C CNN
 F 3 "" H 10850 6850 60  0001 C CNN
