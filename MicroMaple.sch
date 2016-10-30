@@ -769,11 +769,11 @@ Text Label 8500 4800 2    60   ~ 0
 PC14
 Text Label 8500 4900 2    60   ~ 0
 PC15
-Text Label 8500 5000 2    60   ~ 0
-VBAT
-Text Label 8500 5100 2    60   ~ 0
-GND
 Text Label 8500 5200 2    60   ~ 0
+VBAT
+Text Label 8500 5000 2    60   ~ 0
+GND
+Text Label 8500 5100 2    60   ~ 0
 VCC
 Text Label 8500 5300 2    60   ~ 0
 VIN
@@ -1064,12 +1064,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 4900 8500 4900
 Wire Wire Line
-	8000 5000 8600 5000
-Wire Wire Line
-	8600 5100 8500 5100
-Wire Wire Line
-	8600 5200 8500 5200
-Wire Wire Line
 	8600 5300 8500 5300
 Wire Wire Line
 	8600 5400 8500 5400
@@ -1110,7 +1104,7 @@ F 3 "" H 8000 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 4900 8000 5000
+	8000 4900 8000 5200
 Text Label 6100 5450 0    60   ~ 0
 GND
 Text Label 6100 6550 0    60   ~ 0
@@ -1248,4 +1242,10 @@ F 3 "" H 10850 6850 60  0001 C CNN
 	1    10850 6850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8600 5000 8500 5000
+Wire Wire Line
+	8600 5100 8500 5100
+Wire Wire Line
+	8000 5200 8600 5200
 $EndSCHEMATC
